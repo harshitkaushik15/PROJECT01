@@ -1,0 +1,119 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.parentdiv{
+  background-color: #333;
+ display: flex;
+ gap: 6em;
+ flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  padding: 80px;
+
+}
+.childdiv{
+   height: 350px;
+   width: 300px;
+   background-color: white;
+   margin: 2px;
+   padding: 3px;
+   justify-content: space-between;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+
+}
+
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+}
+.top,.center{
+  /* border: 1px solid black; */
+  margin: 2px;
+
+}
+
+.bookmarkbtn{
+  align-self: start;
+  margin: 1px;
+  border: grey;
+  color: grey;
+  display: flex;
+  align-items: center;
+  
+
+}
+
+
+.imagediv{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+  margin: 2px;
+  border: 1px solid black;
+  height:50px;
+  width: 50px;
+  border-radius:30px;
+  padding:2px;
+ 
+
+}
+.image{
+height: 90%;
+width: 90%;
+border-radius:20px;
+
+}
+.center h4{
+  color: rgba(0, 0, 0, 0.775);
+}
+
+.topcenter{
+   /* border: 1px solid black; */
+   margin: 10px;
+   display: flex;
+   flex-direction: column;
+   gap: 1em;
+}
+.spantext{
+  color: grey;
+  font-size:x-small ;
+}
+.twobutton{
+   /* border: 1px solid black; */
+   margin: 1px;
+   display: flex;
+   padding: 2px;
+   gap: 0.6em;
+}
+.footer{
+  display: flex;
+    justify-content: space-between;
+  flex-direction: row;
+   margin: 2px;
+   margin: 10px;
+  align-items: center;
+}
+.footerbtn{
+  background-color: black;
+  color: white;
+  height: 35px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 2px;
+  font-size:small;
+
+}
+.footerdiv p{
+  color: grey;
+  font-size: small;
+}
+.footerdiv h3{
+ font-weight: 200;
+}
